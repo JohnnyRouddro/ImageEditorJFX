@@ -19,6 +19,7 @@ public class ImageEditorJFX extends Application {
         Scene scene = new Scene(root);
         
         stage.setScene(scene);
+        stage.setTitle("JavaFX Image Editor");
         stage.setResizable(false);
         stage.show();
     }
